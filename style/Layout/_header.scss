@@ -1,0 +1,39 @@
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../img/background1.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: ellipse(72% 50% at 50% 36%);
+  position: relative;
+  height: 95vh;
+
+  @include respond(phone) {
+    clip-path: ellipse(60% 50% at 50% 20%);
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    @include respond(phone) {
+      top: 40%;
+    }
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 3rem;
+    left: 1.5rem;
+  }
+
+  &__logo {
+    height: 7rem;
+  }
+}
