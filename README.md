@@ -9,4 +9,9 @@
 
 ## Tính năng hiện có
 
-- Hỗ trợ fully responsive
+- SASS + BEM
+- Beautiful effects
+- Animations
+- Grid system
+- Pop-up modal
+- Fully responsive
