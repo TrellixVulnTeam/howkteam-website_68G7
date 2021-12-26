@@ -1,17 +1,18 @@
 # HOWKTEAM WEBSITE
 
-## Website tĩnh thiết kế theo desgin của www.howkteam.vn
+Focused on UI/UX
 
-## Công nghệ sử dụng
+## Designed base on [howkteam.vn](www.howkteam.vn)'s design
+
+## Technologies
 
 - HTML5
-- SCSS
+- SCSS + BEM
+- Grid System
 
-## Tính năng hiện có
+## Current features
 
-- SASS + BEM
-- Beautiful effects
+- Beautiful effects without Javascript
 - Animations
-- Grid system
 - Pop-up modal
-- Fully responsive
+- Fully responsive with multiple breakpoints
